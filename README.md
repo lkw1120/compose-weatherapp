@@ -56,7 +56,7 @@ The app follows **Clean Architecture** principles with a modular structure:
   - `navigation`: App-wide navigation setup
 
 The architecture follows **MVVM** pattern with:
-- **ViewModels**: Platform-independent business logic
+- **ViewModels**: UI state management and coordination with use cases
 - **UI Layer**: Jetpack Compose screens and components
 - **Repository Pattern**: Data abstraction layer
 - **Use Cases**: Single responsibility business operations
