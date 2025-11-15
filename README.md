@@ -67,6 +67,7 @@ The architecture follows **MVVM** pattern with:
 - **Jetpack Compose** - Modern declarative UI toolkit
 - **Material 3** - Material Design components
 - **Navigation Compose** - Type-safe navigation
+- **Lucide Icons** - Icon library for UI components
 
 ### Dependency Injection
 - **Hilt** - Dependency injection framework
