@@ -88,6 +88,10 @@ The architecture follows **MVVM** pattern with:
 - **Timber** - Logging utility
 - **TedPermission** - Permission handling
 
+### Development Tools
+- **Android Studio** - Primary IDE for Android development
+- **Cursor** - AI-powered code editor (used with assistance during development)
+
 ## Features
 
 - **Current Weather**: Real-time weather conditions for current location
