@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeatherApp</string>
+    
+    <!-- Navigation -->
+    <string name="navigation_home">현재</string>
+    <string name="navigation_bookmarks">북마크</string>
+    <string name="navigation_settings">설정</string>
+    <string name="search_title">검색</string>
+    
+    <!-- Content Descriptions -->
+    <string name="content_description_favorite_add">즐겨찾기에 추가</string>
+    <string name="content_description_favorite_remove">즐겨찾기에서 제거</string>
+    <string name="content_description_open_search">지역 검색 열기</string>
+    <string name="content_description_open_settings">설정 화면 열기</string>
+    
+    <!-- Permissions -->
+    <string name="permission_denied_message">위치 권한이 필요합니다. 설정에서 권한을 허용해 주세요.</string>
+    <string name="permission_rationale_message">위치 권한이 없으면 현재 위치 기반 날씨 정보를 제공할 수 없습니다.&#10;[설정] → [권한]에서 위치 권한을 허용해 주세요.</string>
+    
+    <!-- Search -->
+    <string name="search_placeholder">도시 또는 지역을 입력하세요</string>
+    <string name="search_clear">지우기</string>
+    <string name="search_results_empty">검색 결과가 없습니다.</string>
+    <string name="search_prompt">검색어를 입력해 주세요.</string>
+    <string name="search_back">검색 화면 닫기</string>
+    <string name="search_action">검색</string>
+    <string name="search_history_title">최근 검색</string>
+    <string name="search_history_empty">최근 검색 기록이 없습니다.</string>
+    <string name="search_history_delete">이 검색어 삭제</string>
+    <string name="search_error_failed">검색에 실패했습니다.</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">설정</string>
+    <string name="settings_back">설정 화면 닫기</string>
+    <string name="settings_temperature_unit">화씨로 보기</string>
+    <string name="settings_temperature_celsius">Celsius (°C)</string>
+    <string name="settings_temperature_fahrenheit">Fahrenheit (°F)</string>
+    <string name="settings_time_format">24시간으로 보기</string>
+    <string name="settings_wind_unit">풍속</string>
+    <string name="settings_wind_kilometers_per_hour">km/h</string>
+    <string name="settings_wind_miles_per_hour">mph</string>
+    <string name="settings_wind_meters_per_second">m/s</string>
+    <string name="settings_precipitation_unit">강수량</string>
+    <string name="settings_precipitation_millimeters">mm</string>
+    <string name="settings_precipitation_centimeters">cm</string>
+    <string name="settings_precipitation_inches">in</string>
+    <string name="settings_distance_unit">거리</string>
+    <string name="settings_distance_kilometers">km</string>
+    <string name="settings_distance_miles">mi</string>
+    <string name="settings_pressure_unit">기압</string>
+    <string name="settings_pressure_hectopascal">hPa</string>
+    <string name="settings_pressure_millimeters_of_mercury">mmHg</string>
+    <string name="settings_pressure_inches_of_mercury">inHg</string>
+    <string name="settings_restore_defaults">설정 초기화</string>
+    <string name="settings_clear_cache">캐시 비우기</string>
+    <string name="settings_error_generic">설정을 저장할 수 없습니다.</string>
+    <string name="settings_restore_defaults_success">설정을 초기화했습니다.</string>
+    <string name="settings_clear_cache_success">캐시 데이터를 정리했습니다.</string>
+    <string name="settings_section_app_info">앱 정보</string>
+    <string name="settings_section_display">표시</string>
+    <string name="settings_section_units">단위</string>
+    <string name="settings_section_other">기타</string>
+    <string name="settings_item_app_name">앱</string>
+    <string name="settings_item_version_name">버전</string>
+    <string name="settings_item_data_source">날씨 데이터</string>
+    <string name="settings_data_source_value">OpenWeatherMap</string>
+    <string name="settings_data_source_url">https://openweathermap.org/</string>
+    <string name="settings_item_units">단위</string>
+    <string name="settings_units_title">단위 설정</string>
+    <string name="settings_app_info_title">앱 정보</string>
+    <string name="settings_app_package">패키지 이름</string>
+    <string name="settings_version_info_title">버전 정보</string>
+    <string name="settings_version_code">버전 코드</string>
+    
+    <!-- Bookmarks -->
+    <string name="bookmarks_title">북마크</string>
+    <string name="bookmarks_empty_state">저장된 위치가 없습니다.</string>
+    <string name="bookmarks_coordinates">%1$.4f, %2$.4f</string>
+    
+    <!-- Weather Preview -->
+    <string name="weather_preview_apply_location">이 위치 사용</string>
+    <string name="weather_details_title">자세한 정보</string>
+    <string name="weather_preview_error_fetch">날씨 정보를 가져올 수 없습니다.</string>
+    
+    <!-- Main Screen -->
+    <string name="refresh_recently_updated">15분 이내에 이미 갱신되었습니다.</string>
+    <string name="refresh_completed_at">날씨가 갱신되었습니다.&lt;br/&gt;%1$s</string>
+    <string name="main_error_location_permission">현재 위치를 확인할 수 없습니다. 위치 권한을 항상 허용으로 변경해 주세요.</string>
+    <string name="main_error_location_provider_disabled">위치 서비스를 사용할 수 없습니다. 기기의 위치 서비스를 켠 뒤 다시 시도해 주세요.</string>
+    <string name="main_error_location_unavailable">현재 위치 정보를 가져오는 중 오류가 발생했습니다. 잠시 후 다시 시도해 주세요.</string>
+    <string name="main_error_weather_fetch">날씨 정보를 불러오는 중 문제가 발생했습니다. 잠시 후 다시 시도해 주세요.</string>
+    <string name="main_empty_state_default">현재 위치 정보를 불러오려면 위치 권한을 허용해 주세요.</string>
+    
+    <!-- Forecast -->
+    <string name="hourly_weather_title">시간대별 날씨</string>
+    <string name="daily_forecast_title_week">일주일 날씨</string>
+    <string name="daily_forecast_title_next">다음주 날씨</string>
+    <string name="forecast_today">오늘</string>
+    <string name="forecast_tomorrow">내일</string>
+    
+    <!-- Weather Highlights -->
+    <string name="highlight_feels_like">체감 온도</string>
+    <string name="highlight_humidity">습도</string>
+    <string name="highlight_precipitation">강수량</string>
+    <string name="highlight_precipitation_probability">비 올 확률</string>
+    <string name="highlight_snow">적설량</string>
+    <string name="highlight_wind">풍속</string>
+    <string name="highlight_wind_direction">풍향</string>
+    <string name="highlight_uv_index">자외선 지수</string>
+    <string name="highlight_pressure">기압</string>
+    <string name="highlight_cloudiness">구름량</string>
+    <string name="highlight_visibility">가시거리</string>
+    <string name="highlight_sunrise">일출</string>
+    <string name="highlight_sunset">일몰</string>
+    <string name="highlight_alert">경보</string>
+    <string name="highlight_air_quality">대기질</string>
+    
+    <!-- Time Format -->
+    <string name="hour_suffix">시</string>
+    <string name="period_am">오전</string>
+    <string name="period_pm">오후</string>
+    
+    <!-- UV Index -->
+    <string name="uv_index_low">낮음</string>
+    <string name="uv_index_moderate">보통</string>
+    <string name="uv_index_high">높음</string>
+    <string name="uv_index_very_high">매우 높음</string>
+    <string name="uv_index_extreme">위험</string>
+    
+    <!-- Location -->
+    <string name="default_location_label">현재 위치</string>
+    
+    <!-- Widget -->
+    <string name="widget_placeholder_temperature">--°</string>
+    <string name="widget_placeholder_condition">정보 없음</string>
+    <string name="widget_placeholder_location">날씨 정보를 불러오는 중</string>
+    <string name="widget_placeholder_temperature_range">--° / --°</string>
+    <string name="widget_high_low_format">%1$s / %2$s</string>
+    <string name="widget_daily_item_content_description">%1$s 날씨</string>
+    <string name="widget_error_generic">%1$s 날씨 정보를 불러올 수 없습니다.</string>
+    <string name="widget_error_location_permission">위젯에서 현재 위치를 확인할 수 없습니다.
+앱을 열어 위치 권한을 항상 허용으로 변경해 주세요.</string>
+    <string name="widget_error_location_provider_disabled">위치 서비스를 사용할 수 없습니다.
+기기의 위치 서비스(GPS)를 켠 뒤 다시 시도해 주세요.</string>
+    <string name="widget_status_cached_location">최근 위치 정보를 표시하는 중입니다.</string>
+    <string name="widget_last_updated">마지막 갱신 %1$s</string>
+    <string name="widget_config_title">위젯에 표시할 위치</string>
+    <string name="widget_config_description">위젯에서 확인할 즐겨찾기 위치를 선택하세요.</string>
+    <string name="widget_config_empty_title">즐겨찾기 위치가 없습니다.</string>
+    <string name="widget_config_empty_description">앱에서 즐겨찾기를 추가한 후 다시 시도해 주세요.</string>
+    <string name="widget_config_instruction">앱에서 위치를 추가하면 이 화면에 표시됩니다.</string>
+    <string name="widget_config_confirm">확인</string>
+    
+    <!-- Network -->
+    <string name="network_offline">오프라인 모드입니다. 캐시된 데이터를 표시합니다.</string>
+    <string name="network_offline_no_cache">인터넷 연결이 필요합니다. 네트워크 연결을 확인해 주세요.</string>
+    <string name="network_back_online">인터넷 연결이 복구되었습니다.</string>
+</resources>
+
