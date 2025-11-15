@@ -10,8 +10,7 @@ This weather app provides comprehensive weather information including current co
 
 ### Prerequisites
 
-- Android Studio Hedgehog (2023.1.1) or later
-- JDK 17 or later
+- Android Studio (latest version recommended)
 - Android SDK (API level 26+)
 - OpenWeatherMap API key ([Get one here](https://openweathermap.org/api))
 
