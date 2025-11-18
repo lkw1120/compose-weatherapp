@@ -18,7 +18,7 @@ This weather app provides comprehensive weather information including current co
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/lkw1120/compose-weatherapp.git
    cd compose-weatherapp
    ```
 
